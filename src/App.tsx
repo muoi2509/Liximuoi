@@ -162,12 +162,6 @@ export default function App() {
                 <h2 className="text-2xl sm:text-3xl font-bold text-red-600 mb-2 -mt-4 drop-shadow-lg">
                   🎉 Chúc Mừng :) 🎉
                 </h2>
-                <motion.div 
-                  className="text-4xl sm:text-5xl font-extrabold text-yellow-500 -mt-4 drop-shadow-[0_0_15px_rgba(253,224,71,0.8)]"
-                  animate={{ scale: [1, 1.1, 1] }}
-                  transition={{ repeat: Infinity, duration: 2 }}
-                >
-                  50.000đ!
                 </motion.div>
               </motion.div>
             )}
