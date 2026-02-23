@@ -133,7 +133,7 @@ export default function App() {
                 exit={{ opacity: 0, y: -20 }}
                 className="text-2xl sm:text-3xl font-bold text-red-700 text-center drop-shadow-sm"
               >
-                Chọn Một Bao Lì Xì 🤑
+                🤑 Chọn Một Bao Lì Xì 🤑
               </motion.h2>
             )}
             {gameState === 'WAITING_TO_OPEN' && (
@@ -142,13 +142,13 @@ export default function App() {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
-                className="text-yellow-400 font-bold text-2xl sm:text-3xl drop-shadow-md"
+                className="text-yellow-600 font-bold text-2xl sm:text-3xl drop-shadow-md"
               >
                 <motion.span
                   animate={{ opacity: [0.5, 1, 0.5] }}
                   transition={{ repeat: Infinity, duration: 1.5 }}
                 >
-                  MỞ LÌ XÌ ĐI 
+                  😀 Mở Lì Xì Thôi 😀
                 </motion.span>
               </motion.div>
             )}
@@ -159,11 +159,11 @@ export default function App() {
                 animate={{ opacity: 1, scale: 1 }}
                 className="text-center"
               >
-                <h2 className="text-2xl sm:text-3xl font-bold text-red-600 mb-2">
+                <h2 className="text-2xl sm:text-3xl font-bold text-red-600 mb-2 -mt-4 drop-shadow-lg">
                   🎉 Chúc Mừng :) 🎉
                 </h2>
                 <motion.div 
-                  className="text-4xl sm:text-5xl font-extrabold text-yellow-500 drop-shadow-[0_0_15px_rgba(253,224,71,0.8)] -translate-y-4"
+                  className="text-4xl sm:text-5xl font-extrabold text-yellow-500 -mt-4 drop-shadow-[0_0_15px_rgba(253,224,71,0.8)]"
                   animate={{ scale: [1, 1.1, 1] }}
                   transition={{ repeat: Infinity, duration: 2 }}
                 >
@@ -238,7 +238,7 @@ export default function App() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => {}}
-                className="px-10 py-3 bg-yellow-400 text-red-700 font-bold text-xl rounded-full shadow-lg border-2 border-red-600 hover:bg-yellow-500 transition-colors"
+                className="px-10 py-3 bg-yellow- text-red-700 font-bold text-xl rounded-full shadow-lg border-2 border-red-600 hover:bg-yellow-500 transition-colors"
               >
                 Chụp Màn Hình Gửi Toi 🧐
               </motion.button>
