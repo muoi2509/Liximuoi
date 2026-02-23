@@ -122,7 +122,7 @@ export default function App() {
                 exit={{ opacity: 0, y: -20 }}
                 className="text-3xl sm:text-4xl font-bold text-red-700 text-center drop-shadow-sm"
               >
-                Lì Xì 
+                🧧 Lì Xì Nhé 🧧
               </motion.h1>
             )}
             {gameState === 'SELECTING' && (
@@ -133,7 +133,7 @@ export default function App() {
                 exit={{ opacity: 0, y: -20 }}
                 className="text-2xl sm:text-3xl font-bold text-red-700 text-center drop-shadow-sm"
               >
-                Chọn một bao lì xì 🤑
+                Chọn Một Bao Lì Xì 🤑
               </motion.h2>
             )}
             {gameState === 'WAITING_TO_OPEN' && (
@@ -142,7 +142,7 @@ export default function App() {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
-                className="text-yellow-500 font-bold text-2xl sm:text-3xl drop-shadow-md"
+                className="text-yellow-400 font-bold text-2xl sm:text-3xl drop-shadow-md"
               >
                 <motion.span
                   animate={{ opacity: [0.5, 1, 0.5] }}
@@ -160,10 +160,10 @@ export default function App() {
                 className="text-center"
               >
                 <h2 className="text-2xl sm:text-3xl font-bold text-red-600 mb-2">
-                  🎉 Chúc mừng :)) 🎉
+                  🎉 Chúc Mừng :) 🎉
                 </h2>
                 <motion.div 
-                  className="text-4xl sm:text-5xl font-extrabold text-yellow-500 drop-shadow-[0_0_15px_rgba(253,224,71,0.8)]"
+                  className="text-4xl sm:text-5xl font-extrabold text-yellow-500 drop-shadow-[0_0_15px_rgba(253,224,71,0.8)] -translate-y-4"
                   animate={{ scale: [1, 1.1, 1] }}
                   transition={{ repeat: Infinity, duration: 2 }}
                 >
@@ -240,7 +240,7 @@ export default function App() {
                 onClick={() => {}}
                 className="px-10 py-3 bg-yellow-400 text-red-700 font-bold text-xl rounded-full shadow-lg border-2 border-red-600 hover:bg-yellow-500 transition-colors"
               >
-                OK :))
+                Chụp Màn Hình Gửi Toi 🧐
               </motion.button>
             )}
           </AnimatePresence>
