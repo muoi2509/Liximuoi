@@ -142,7 +142,7 @@ export default function App() {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
-                className="text-yellow-600 font-bold text-2xl sm:text-3xl drop-shadow-md"
+                className="text-yellow-600 font-bold text-2xl sm:text-3xl drop-shadow-md -webkit-text-stroke: 2px red-600 text-center"
               >
                 <motion.span
                   animate={{ opacity: [0.5, 1, 0.5] }}
@@ -167,7 +167,6 @@ export default function App() {
             )}
           </AnimatePresence>
         </div>
-
         {/* Envelopes Area */}
         <div className="relative h-64 sm:h-80 w-full flex justify-center items-center">
           <div className="flex justify-center items-center gap-4 sm:gap-8 absolute">
