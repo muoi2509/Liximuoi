@@ -122,7 +122,7 @@ export default function App() {
                 exit={{ opacity: 0, y: -20 }}
                 className="text-3xl sm:text-4xl font-bold text-red-700 text-center drop-shadow-sm"
               >
-                Lì Xì Đầu Năm
+                Lì Xì 
               </motion.h1>
             )}
             {gameState === 'SELECTING' && (
@@ -133,7 +133,7 @@ export default function App() {
                 exit={{ opacity: 0, y: -20 }}
                 className="text-2xl sm:text-3xl font-bold text-red-700 text-center drop-shadow-sm"
               >
-                Chọn một bao lì xì
+                Chọn một bao lì xì 🤑
               </motion.h2>
             )}
             {gameState === 'WAITING_TO_OPEN' && (
@@ -148,7 +148,7 @@ export default function App() {
                   animate={{ opacity: [0.5, 1, 0.5] }}
                   transition={{ repeat: Infinity, duration: 1.5 }}
                 >
-                  ẤN ĐỂ MỞ LÌ XÌ
+                  MỞ LÌ XÌ ĐI 
                 </motion.span>
               </motion.div>
             )}
@@ -160,7 +160,7 @@ export default function App() {
                 className="text-center"
               >
                 <h2 className="text-2xl sm:text-3xl font-bold text-red-600 mb-2">
-                  🎉 Chúc mừng bạn nhận được 🎉
+                  🎉 Chúc mừng :)) 🎉
                 </h2>
                 <motion.div 
                   className="text-4xl sm:text-5xl font-extrabold text-yellow-500 drop-shadow-[0_0_15px_rgba(253,224,71,0.8)]"
@@ -226,7 +226,7 @@ export default function App() {
                 onClick={handleReady}
                 className="px-8 py-4 bg-red-600 text-yellow-300 font-bold text-xl rounded-full shadow-lg border-2 border-yellow-400 hover:bg-red-700 transition-colors"
               >
-                SẴN SÀNG
+                Bắt Đầu
               </motion.button>
             )}
             {gameState === 'CELEBRATING' && (
