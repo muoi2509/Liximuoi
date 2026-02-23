@@ -238,7 +238,7 @@ export default function App() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => {}}
-                className="px-10 py-3 bg-yellow- text-red-700 font-bold text-xl rounded-full shadow-lg border-2 border-red-600 hover:bg-yellow-500 transition-colors"
+                className="px-10 py-3 bg-yellow-300 text-red-700 font-bold text-xl rounded-full shadow-lg border-2 border-red-600 hover:bg-yellow-500 transition-colors"
               >
                 Chụp Màn Hình Gửi Toi 🧐
               </motion.button>
