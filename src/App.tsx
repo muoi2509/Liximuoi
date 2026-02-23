@@ -120,9 +120,9 @@ export default function App() {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
-                className="text-3xl sm:text-4xl font-bold text-red-700 text-center drop-shadow-sm"
+                className="text-4xl sm:text-5xl font-extrabold font-poppins text-red-700 text-center tracking-wide drop-shadow-lg"
               >
-                🧧 Lì Xì Nhé 🧧
+                🧧 Lì Xì 🧧
               </motion.h1>
             )}
             {gameState === 'SELECTING' && (

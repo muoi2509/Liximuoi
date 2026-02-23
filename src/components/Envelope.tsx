@@ -81,7 +81,7 @@ export function Envelope({ text, isOpen, onClick, isShuffling, isSelected, showT
           {/* Seal */}
           <div className="absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 bg-yellow-400 rounded-full flex items-center justify-center shadow-md border-2 border-yellow-500">
             <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-red-600 flex items-center justify-center">
-              <span className="text-red-600 text-sm font-bold leading-none scale-150">🔶</span>
+              <span className="text-red-600 text-sm font-bold leading-none">🔶</span>
             </div>
           </div>
         </div>
